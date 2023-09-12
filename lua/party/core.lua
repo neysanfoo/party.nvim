@@ -24,7 +24,7 @@ local function set_party_colors(config)
 	for _, hl_group in ipairs(all_groups) do
 		local hl_info = vim.api.nvim_get_hl_by_name(hl_group, true)
 		local bg_color = config.background == "current" and hl_info.background or nil
-		local index = math.random(1, #config.colors) -- Choose a random color
+		local index = math.random(1, #config.colors)
 
 		local attributes
 		if is_gui then
@@ -35,7 +35,7 @@ local function set_party_colors(config)
 		else
 			attributes = {
 				ctermfg = cterm_colors[index],
-				ctermbg = bg_color,  -- This assumes the background color is in the cterm colors set or nil
+				ctermbg = bg_color,
 			}
 		end
 
@@ -55,10 +55,8 @@ end
 
 M.toggle_party = function(config)
 	if not M.timer then
-		-- Capture original colors
 		capture_original_colors()
 
-		-- Create a timer to change colors at an interval
 		set_party_colors(config)
 		M.timer = vim.loop.new_timer()
 		M.timer:start(
@@ -73,7 +71,6 @@ M.toggle_party = function(config)
 		M.timer:close()
 		M.timer = nil
 
-		-- Restore original colors
 		vim.defer_fn(restore_original_colors, 10)
 	end
 end

@@ -16,7 +16,7 @@ local default_config = {
 		"#FF00FF", -- Magenta
 		"#FF007F", -- Rose
 	},
-	interval = 500  -- default interval in milliseconds
+	interval = 500
 }
 
 local core = require('party.core')
