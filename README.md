@@ -1,6 +1,6 @@
 # party.nvim
 
-Are you tired of being productive? Need a break from the monotony of standard syntax highlighting? Well say hello to `party.nvim`! This plugin will turn your code editor into a party 🎉 by making your text glow like a neon dance floor 🕺💃! Get `party.nvim` and confuse your co-workers today!
+Feeling too productive lately? Why not shake things up a bit? Say hello to `party.nvim`! This plugin will turn your code editor into a party 🎉 giving your text the flair of a neon dance floor 🕺💃! Ditch that boring syntax highlighting and confuse your coworkers today with `party.nvim`! 
 
 ![PartyToggleDemo](https://github.com/neysanfoo/party.nvim/assets/20664939/e93cf4a0-31de-468c-a852-2ea970baa510)
 
