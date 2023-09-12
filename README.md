@@ -20,11 +20,16 @@ Are you tired of being productive? Need a break from the monotony of standard sy
 use 'neysanfoo/party.nvim'
 ```
 
-## Usage:
 
-`:PartyToggle` - Toggle the party mode.
+## Quick Start
 
-## Configuration:
+### Setup
+Setup the plugin in the appropriate file.
+```lua
+require('party').setup({})
+```
+
+### Custom Mappings
 
 You can configure the plugin by adding these settings to your configuration:
 
@@ -48,6 +53,10 @@ require('party').setup({
   interval = 500 -- Set the interval (in milliseconds) for changing colors. Lowest possible value is 200.
 })
 ```
+
+## Usage:
+
+`:PartyToggle` - Toggle the party mode.
 
 ### For Terminals Without GUI Colors (`termguicolors` is not set)
 If you wish to use custom colors, you must be running in an environment with `termguicolors` enabled. Otherwise, the plugin will default to the predefined terminal color set.
