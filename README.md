@@ -9,8 +9,7 @@ Feeling too productive lately? Why not shake things up a bit? Say hello to `part
 - Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-    'neysanfoo/party.nvim',
-    config = true
+    'neysanfoo/party.nvim'
 }
 ```
 
