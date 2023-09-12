@@ -54,14 +54,14 @@ require('party').setup({
 })
 ```
 
-## Usage:
+## Usage
 
 `:PartyToggle` - Toggle the party mode.
 
 ### For Terminals Without GUI Colors (`termguicolors` is not set)
 If you wish to use custom colors, you must be running in an environment with `termguicolors` enabled. Otherwise, the plugin will default to the predefined terminal color set.
 
-## Recommended Keybinding:
+## Recommended Keybinding
 
 You can easily toggle the party on and off using this recommended keybinding:
 
