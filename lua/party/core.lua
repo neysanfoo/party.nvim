@@ -14,7 +14,7 @@ local function set_party_colors(config)
 end
 
 local function capture_original_colors()
-	M.original_colorscheme = vim.g.colors_name
+	M.original_colorscheme = vim.g.colors_name or "default"
 end
 
 local function restore_original_colors()
