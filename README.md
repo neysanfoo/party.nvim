@@ -7,7 +7,8 @@ Are you tired of being productive? Need a break from the monotony of standard sy
 - Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
-    'neysanfoo/party.nvim'
+    'neysanfoo/party.nvim',
+    config = true
 }
 ```
 
